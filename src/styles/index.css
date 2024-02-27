@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-page-bg);
+  color: var(--main-font-color);
+  font-family: Prompt, Montserrat, sans-serif;
+}
+
+a {
+  color: var(--grey-main);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:visited {
+  color: var(--grey-main);
+}
+
+a:active {
+  color: var(--active-link-base);
+}
+
+a:hover {
+  color: var(--main-font-color);
+}
+
+.top-base-space {
+  margin-top: 64px;
+}

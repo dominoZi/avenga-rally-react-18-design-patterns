@@ -1,0 +1,1 @@
+export { CompoundPatternPage } from "./CompoundPatternPage";

@@ -1,0 +1,1 @@
+export { RenderPropsPatternPage } from "./RenderPropsPatternPage";

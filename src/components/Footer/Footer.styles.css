@@ -1,0 +1,7 @@
+.Footer-root {
+  max-width: var(--main-content-width);
+
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0;
+}

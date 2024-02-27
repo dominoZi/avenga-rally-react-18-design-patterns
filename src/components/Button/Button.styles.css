@@ -1,0 +1,10 @@
+.Button-root {
+  font-weight: 700;
+  background: var(--button-main-bg);
+  height: 40px;
+  color: var(--button-main-color);
+  padding: 8px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

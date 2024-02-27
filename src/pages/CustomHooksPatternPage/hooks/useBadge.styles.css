@@ -1,0 +1,18 @@
+.Badge-root {
+  position: relative;
+}
+.Badge-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+  font-size: 14px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--secondary-violet-base);
+  color: var(--button-main-color);
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}

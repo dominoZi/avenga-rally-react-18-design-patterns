@@ -1,0 +1,8 @@
+.List-root {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.List-root > li:first-child {
+  border-top: 1px solid var(--border-main-color);
+}

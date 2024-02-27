@@ -1,0 +1,9 @@
+.ButtonBase-root {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  cursor: pointer;
+}

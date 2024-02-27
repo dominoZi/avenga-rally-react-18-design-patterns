@@ -1,0 +1,6 @@
+.Content-root {
+  max-width: var(--main-content-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 32px;
+}

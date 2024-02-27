@@ -1,0 +1,9 @@
+.SideBar-root {
+  width: 360px;
+  min-height: 100vh;
+  border-right: 1px solid var(--border-main-color);
+}
+
+.SideBar-logo {
+  margin: 32px;
+}

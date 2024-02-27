@@ -1,0 +1,37 @@
+.ExpandPanel-root {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-main-color);
+}
+
+.ExpandPanel-header {
+  display: flex;
+  align-items: center;
+  min-height: 42px;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.ExpandPanel-header.expanded {
+  border-bottom: 1px solid var(--border-main-color);
+}
+
+.ExpandPanel-title {
+  font-size: 20px;
+}
+
+.ExpandPanel-content {
+  display: block;
+  height: 0;
+  overflow-y: hidden;
+}
+
+.ExpandPanel-content.expanded {
+  height: auto;
+  padding: 16px;
+}
+
+.ExpandPanel-icon.expanded {
+  transform: rotateZ(180deg);
+  transition: all 0.4s;
+}

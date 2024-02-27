@@ -1,0 +1,9 @@
+.AvatarDemo-root {
+  display: inline-block;
+}
+
+.AvatarDemo-avatar {
+  border-radius: 50%;
+  overflow: hidden;
+  outline: 1px solid black;
+}

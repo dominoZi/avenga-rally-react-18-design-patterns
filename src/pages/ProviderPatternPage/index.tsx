@@ -1,0 +1,1 @@
+export { ProviderPatternPage } from "./ProviderPatternPage";

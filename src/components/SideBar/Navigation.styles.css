@@ -1,0 +1,16 @@
+.Navigation-root > ul {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-left: 16px;
+}
+
+.Navigation-root > ul > li {
+  padding: 8px 0;
+}
+
+.Navigation-root > ul > li {
+  margin: 0 8px;
+}

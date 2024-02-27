@@ -1,0 +1,21 @@
+html {
+  --main-page-bg: white;
+  --main-font-color: #191919;
+  --main-content-width: 1080px;
+  --grey-main: #6a6a6a;
+  --border-main-color: #aaafb6;
+  --button-main-bg: #191919;
+  --button-main-color: white;
+  --secondary-violet-base: #493afc;
+  --secondary-blue-base: #00c2ff;
+  --active-link-base: var(--secondary-violet-base);
+}
+
+html[data-theme="dark"] {
+  --main-page-bg: black;
+  --main-font-color: white;
+  --main-content-width: 1080px;
+  --border-main-color: white;
+  --button-main-bg: white;
+  --button-main-color: #191919;
+}
